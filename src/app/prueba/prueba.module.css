@@ -1,0 +1,53 @@
+.swiper {
+    width: 280px;
+    height: 440px;
+}
+
+.slide {
+    border-radius: 15px;
+    background: hsl(150, 50%, 95%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 4/4;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.contenido {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contenido h4 {
+    color: rgb(10, 10, 10);
+}
+
+.contenido p {
+    font-size: 0.9rem;
+    color: rgb(30, 30, 30);
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* Número de líneas que deseas mostrar */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

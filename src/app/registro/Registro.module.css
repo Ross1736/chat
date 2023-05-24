@@ -1,0 +1,19 @@
+.sexos {
+    width: 180px;
+}
+
+.sexos ul {
+    display: flex;
+    gap: 20px;
+}
+
+.activoSexo {
+    background: violet;
+}
+
+.sexos li {
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid violet;
+    border-radius: 10px;
+}

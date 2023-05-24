@@ -1,0 +1,18 @@
+.swiper {
+    width: 240px;
+    height: 320px;
+}
+
+.slide {
+    border-radius: 15px;
+    background: rgb(255, 210, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido {
+    background: violet;
+}
